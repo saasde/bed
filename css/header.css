@@ -1,0 +1,115 @@
+#header {
+    background: #fff;
+    padding: 0 30px;
+    margin: 0 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    clear: both;
+    height: 60px;
+/*    스크롤 이벤트*/
+    position: fixed; top: 12px; left: 0; right: 0;
+    z-index: 60;
+}
+#home_m {
+    margin-right: 40px;
+}
+#home_m a img {
+    width: 100px;
+    height: 60px;
+}
+#home_m, #main_gnb { 
+    display: inline-block;
+    vertical-align: middle;
+}
+#main_lnb {
+    padding-top:px;
+    float: right;
+}
+.nav_l >ul {
+    position: relative;
+}
+.nav_l >ul >li {
+    float: left;
+    position: relative;
+    font-weight: 500;
+    margin: 0px 30px;
+}
+.nav_l ul li {
+    padding: 10px;
+}
+.sub li {
+    transition: all 0.5s;
+}
+#main_gnb >ul >li a:hover {color: #444;}
+#main_gnb  ul  li:hover ul{
+	display: block;
+    background-color: #ffffff;
+    width: 180px;
+    padding: 15px 5px 20px 20px;
+    position: absolute;
+/*    z-index: 20;*/
+    top: 42px;
+    left: -20px;
+    border: solid 1px #eeeeee;
+    border-top:none;
+}
+/*
+#main_lnb  ul  li:hover ul{
+	display: block;
+    background-color: #ffffff;
+    width: 150px;
+    padding: 16px 20px 20px 20px;
+    position: absolute;
+    z-index: 20;
+    top: 55px;
+    left: -20px;
+}
+*/
+
+#main_gnb  ul  li:hover ul:hover {
+	display: block;
+}
+/*
+#main_lnb  ul  li  ul li a{
+ 	color:#8a8a8a;  
+ }
+*/
+#main_gnb  ul  li:hover ul li a {
+	line-height: 26px;
+    font-size: 14px;
+    color:#8a8a8a;  
+}
+
+#main_gnb  ul  li:hover ul li a:hover {
+	color:#3c3c3b
+}
+
+/*
+#main_lnb > ul > li {
+	font-size:14px;
+} 
+*/
+.nav_l > ul > li > ul {
+	display:none; 
+}
+#main_gnb > ul > li, #main_lnb > ul > li{
+	padding: 19px 0px;
+}
+#main_gnb > ul > li a{
+	margin-right:34px;
+	font-size:16px;
+	color:#3c3c3b;
+}
+/*
+#main_lnb > ul > li a{
+	margin-left:20px;
+	font-size:11px;
+	color:#3c3c3b;
+}*/
+.nav_r li {
+    float: left;
+    padding: 18px;
+}
+.nav_r li a{
+    font-size: 12px;
+}

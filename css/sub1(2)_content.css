@@ -1,0 +1,236 @@
+.box_title {
+    position: relative;
+    background: url(../sub1_img/mattress_box.png) no-repeat center;
+    background-size: cover;
+    padding: 12% 0;
+}
+.title {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+}
+.title h3 {
+    font-size: 60px;
+    line-height: 1;
+}
+.title p {
+    margin-top: 20px;
+}
+.cont1 {max-width: 1200px; margin: 0 auto;}
+.box_intro {
+    background: url(../sub1_img/hello.png) no-repeat center top #fff;
+    background-size: cover;
+    padding: 4% 20px 30%;
+    position: relative;
+}
+.route div {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    font-size: 14px;
+}
+.route div span {
+    position: relative;
+    padding: 0 10px 0 14px;
+    color: #003628;
+    float: left;
+}
+.route div span a {color: #333;}
+.route div span:first-child{
+    background: none;
+    padding: 0 10px 0 0;
+}
+.route div span:first-child:before{content: "";}
+.route div span:before {
+    content: "/";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #999;
+}
+.title h4 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 50px;
+}
+.box_intro .title p {
+    font-size: 18px;
+}
+.box_box {
+    max-width: 1600px; margin: 0 auto;
+    text-align: center;
+    padding: 5% 0;
+    background: url(../sub1_img/box_b.png) no-repeat left;
+}
+.box_box h4 {
+    font-size: 36px;
+    color: #003628;
+    line-height: 1;
+    margin-top: 30px;
+} 
+.box_box p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+.box_sus {
+    background: url(../sub1_img/sustainable.png) no-repeat center;
+    background-size: cover;
+    padding: 15% 0;
+    text-align: center;
+}
+.box_sus h4 {
+    font-size: 36px;
+    color: #d6e7d0;
+    line-height: 1;
+}
+.box_sus p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 30px;
+    color: #d6e7d0;
+}
+.box_why {
+    background: #fff;
+    padding: 5% 0;
+    text-align: center;
+}
+.box_why h4 {
+    font-size: 36px;
+    color: #003628;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+.box_why ul li {
+    display: inline-block;
+    width: 30%;
+}
+.box_why h5 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #003628;
+}
+.box_why p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 30px;
+    color: #003628;
+}
+.box_testi {
+    background: url(../sub1_img/b_testi.png) repeat center #eaf3e7;
+    padding: 2% 0;
+    text-align: center;
+}
+.cont3 {
+    padding: 3% 0;
+}
+.pop {
+    background: #fff;
+/*
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+*/
+    text-align: center;
+}
+.cont3_1 {
+    padding: 30px;
+}
+.close {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/x.jpg) no-repeat left top;
+}
+.txt {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 18px;
+    color: #003628;
+    font-weight: 400;
+    text-align: left;
+}
+.block p {
+    font-size: 36px;
+    color: #003628;
+    line-height: 1.2;
+}
+.block p:before {content: open-quote;}
+.block p:after {content: close-quote;}
+.cont3_t {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 30px;
+    color: #003628;
+}
+.more {
+    background: url(../img/arrow_r.png) no-repeat right 50%;
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.box_how {
+    background: #fff;
+    padding: 5% 0;
+    text-align: center;
+}
+.box_how h4 {
+    font-size: 36px;
+    color: #003628;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+.cont4 {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cont4 li {
+    float: left;
+    width: 25%;
+}
+.cont4 li h5 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #003628;
+    font-weight: 700;
+}
+.cont4 li p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #003628;
+    margin-top: 20px;
+}
+.box_how2 {
+    background:#e6e3dd url(../img/box_dots.png) repeat left top;
+    padding: 5% 0;
+    text-align: center;
+}
+.cont5{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cont5 li {
+    display: inline-block;
+    width: 33%;
+}
+.cont5 li h5 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #003628;
+    font-weight: 700;
+}
+.cont5 li p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #003628;
+    margin-top: 20px;
+}

@@ -1,0 +1,20 @@
+.r_nav {
+    position: fixed;
+    right: 0px;
+    top: 40%;
+    height: 200px;
+    z-index: 60;
+}
+.r_nav div img {
+    margin: 5px 10px 0 0px;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-slide {
+    position: relative;
+}
+.txt1 {position: absolute; color:  #003628; left: 0; top: 40%; width: 100%; text-align: center; transition: 0.5s;}
+.txt2 {position: absolute; color:  #003628; left: 0; top: 45%; width: 100%; text-align: center; transition: 0.5s;}
+.txt p {font-size: 48px;}
+.txt span {font-size: 18px;line-height: 1.5;}
